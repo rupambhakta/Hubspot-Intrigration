@@ -9,8 +9,8 @@ import redis
 from .integration_item import IntegrationItem
 
 # HubSpot OAuth Configuration
-CLIENT_ID = "21c726d2-ed6d-4e44-b161-b028029eaff3"  # Replace with your HubSpot Client ID
-CLIENT_SECRET = "042d4716-5ed4-4ae5-8700-af055d2c45e3"  # Replace with your HubSpot Client Secret
+CLIENT_ID = "Your_Client_Id"  # Replace with your HubSpot Client ID
+CLIENT_SECRET = "Your_Client_serect"  # Replace with your HubSpot Client Secret
 REDIRECT_URI = "http://localhost/integrations/hubspot/oauth2callback"
 SCOPES = ["contacts", "companies", "deals"]  # Basic scopes for CRM access
 
